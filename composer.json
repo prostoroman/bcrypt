@@ -11,9 +11,6 @@
     "require": {
         "php": ">=5.3.3"
     },
-    "require-dev": {
-        "kherge/runkit-test-case": "1.*"
-    },
     "suggest": {
         "php": ">=5.3.7"
     },
