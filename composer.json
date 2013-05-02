@@ -1,0 +1,29 @@
+{
+    "name": "prostoroman/bcrypt",
+    "description": "A library for encoding strings using bcrypt.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Herrera",
+            "email": "kevin@herrera.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "kherge/runkit-test-case": "1.*"
+    },
+    "suggest": {
+        "php": ">=5.3.7"
+    },
+    "autoload": {
+        "files": ["src/lib/bcrypt.php"],
+        "psr-0": {
+            "KevinGH\\Bcrypt": "src/lib"
+        }
+    },
+    "config": {
+    	"vendor-dir": "src/vendors"
+    }
+}

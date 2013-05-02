@@ -1,0 +1,52 @@
+{
+    "hash": "b254f925a88f8bfb525a0d39a0dde765",
+    "packages": [
+
+    ],
+    "packages-dev": [
+        {
+            "name": "kherge/runkit-test-case",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kherge/RunkitTestCase.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/kherge/RunkitTestCase/zipball/1.0.0",
+                "reference": "1.0.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "ext-runkit": ">=0.7.0"
+            },
+            "time": "2012-10-12 18:37:47",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "KevinGH\\Runkit": "src/lib"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Herrera",
+                    "email": "kevin@herrera.io"
+                }
+            ],
+            "description": "A PHPUnit test case that makes using Runkit a little easier."
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}
